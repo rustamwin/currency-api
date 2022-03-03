@@ -1,0 +1,24 @@
+{
+    "name": "rustamwin/currency-api",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "symfony/console": "^6.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "cycle/database": "^2.1",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rustamwin\\CurrencyApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rustam",
+            "email": "rmamdaminov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
